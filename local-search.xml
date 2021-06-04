@@ -8,7 +8,7 @@
     <link href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/"/>
     <url>/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</url>
     
-    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pinguin.png" alt="Pingu"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
     
     
     <categories>
