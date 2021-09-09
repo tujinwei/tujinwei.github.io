@@ -37,12 +37,12 @@
     <link href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/"/>
     <url>/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</url>
     
-    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pinguin.png?40" alt="Pingu"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pinguin.png" alt="缩小的图片"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
     
     
     <categories>
       
-      <category>编程</category>
+      <category>Java</category>
       
     </categories>
     
@@ -64,7 +64,7 @@
     <link href="/2021/05/17/%E6%9D%82%E6%84%9F/"/>
     <url>/2021/05/17/%E6%9D%82%E6%84%9F/</url>
     
-    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p><p>###2021年9月9日更新<br>持续的熬夜让身体感到疲倦。<br>身体像是一台机器，是人的最稳固的资产，是老底。每年折旧一点，不免要机能下降。但为了不加速折旧，不提前报废，就得好好养着，时时上油调理，免得猛地计提一大笔减值，再转回来就难了。</p>]]></content>
+    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p><h3 id="2021年9月9日更新"><a href="#2021年9月9日更新" class="headerlink" title="2021年9月9日更新"></a>2021年9月9日更新</h3><p>持续的熬夜让身体感到疲倦。<br>身体像是一台机器，是人的最稳固的资产，是老底。每年折旧一点，不免要机能下降。但为了不加速折旧，不提前报废，就得好好养着，时时上油调理，免得猛地计提一大笔减值，再转回来就难了。</p>]]></content>
     
     
     <categories>
@@ -115,6 +115,18 @@
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
     
   </entry>
   
