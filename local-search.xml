@@ -4,11 +4,40 @@
   
   
   <entry>
+    <title>Basics of Blockchain</title>
+    <link href="/2021/09/09/Basics-of-Bitcoin/"/>
+    <url>/2021/09/09/Basics-of-Bitcoin/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Block-header-是什么"><a href="#Block-header-是什么" class="headerlink" title="Block header 是什么"></a>Block header 是什么</h2><h2 id="Private-key-amp-public-key-pair-and-ECC-algorithm"><a href="#Private-key-amp-public-key-pair-and-ECC-algorithm" class="headerlink" title="Private key &amp; public key pair and ECC algorithm"></a>Private key &amp; public key pair and ECC algorithm</h2><h2 id="Hashing的原理"><a href="#Hashing的原理" class="headerlink" title="Hashing的原理"></a>Hashing的原理</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>Blockchain</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Blockchain</tag>
+      
+      <tag>Bitcoin</tag>
+      
+      <tag>Ethereum</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>JavaFX运行出现的错误</title>
     <link href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/"/>
     <url>/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</url>
     
-    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pinguin.png" alt="Pingu"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pinguin.png?40" alt="Pingu"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
     
     
     <categories>
@@ -31,41 +60,16 @@
   
   
   <entry>
-    <title>洋葱妹</title>
-    <link href="/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/"/>
-    <url>/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/</url>
+    <title>深夜杂感</title>
+    <link href="/2021/05/17/%E6%9D%82%E6%84%9F/"/>
+    <url>/2021/05/17/%E6%9D%82%E6%84%9F/</url>
     
-    <content type="html"><![CDATA[<p>一万年太久 只争朝夕</p><span id="more"></span><blockquote><p>记忆的剪影</p></blockquote><p><img src="/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/wwc-%E9%81%87%E8%A7%81%E5%85%AC%E5%AF%93.jpg" alt="遇见公寓"></p><blockquote><p>故乡还能回去吧</p></blockquote><p><img src="/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/%E5%90%88%E7%85%A7-%E7%BB%BF%E9%81%93.jpg" alt="故乡的绿道"></p><blockquote><p>美丽的姑凉</p></blockquote><p><img src="/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/DSC00711.JPG" alt="戴帽子傻妞"></p><blockquote><p>人面”桃花”相映红（”桃花”–背景很乱的小屋）</p></blockquote><p><img src="/2021/05/17/%E6%B4%8B%E8%91%B1%E5%A6%B9/DSC00692.JPG" alt="去年生日"></p><p>时间不多了</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>随笔</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>日常</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>雜感</title>
-    <link href="/2021/05/17/text/"/>
-    <url>/2021/05/17/text/</url>
-    
-    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p>]]></content>
+    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p><p>###2021年9月9日更新<br>持续的熬夜让身体感到疲倦。<br>身体像是一台机器，是人的最稳固的资产，是老底。每年折旧一点，不免要机能下降。但为了不加速折旧，不提前报废，就得好好养着，时时上油调理，免得猛地计提一大笔减值，再转回来就难了。</p>]]></content>
     
     
     <categories>
       
-      <category>随笔</category>
+      <category>trivia</category>
       
     </categories>
     
@@ -75,16 +79,16 @@
   
   
   <entry>
-    <title>吴王~</title>
-    <link href="/2021/05/15/Meine-erste-Ubung/"/>
-    <url>/2021/05/15/Meine-erste-Ubung/</url>
+    <title>This is a test of hexo functions</title>
+    <link href="/2021/05/15/test/"/>
+    <url>/2021/05/15/test/</url>
     
-    <content type="html"><![CDATA[<p>ほんじつはたのもう</p><span id="more"></span><h1 id="我是大標題"><a href="#我是大標題" class="headerlink" title="我是大標題"></a>我是大標題</h1><p>随便写点什么<br><em>Ich bin italic</em><br><strong>Ich bin bald</strong><br><em><strong>Ich bin italic und bald</strong></em><br><del>Ich bin durchgestrichen</del><br>x^2</p><h2 id="我是二當家"><a href="#我是二當家" class="headerlink" title="我是二當家"></a>我是二當家</h2><p>oops 是二標題  </p><p><a href="http://www.google.com/">我是超链接1</a><br>我是超鏈接2<a href="https://tophub.today/">https://tophub.today/</a><br>參考文獻：[我是超鏈接3][1]<br>[1]:<a href="http://www.moc.goc.cn/">http://www.moc.goc.cn/</a></p><ul><li>選角色</li></ul><ul><li>做任務</li></ul><ul><li>打怪升級</li></ul><img src="/2021/05/15/Meine-erste-Ubung/%E9%B8%9F%E5%B7%A2%E5%89%AA%E5%BD%B1.jpg" class title="This is an image"><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arcade">![鸟巢](<span class="hljs-regexp">/images/</span>鸟巢剪影.jpg)<br></code></pre></td></tr></table></figure><hr>]]></content>
+    <content type="html"><![CDATA[<p>ほんじつはたのもう</p><span id="more"></span><h1 id="我是大標題"><a href="#我是大標題" class="headerlink" title="我是大標題"></a>我是大標題</h1><p>随便写点什么<br><em>Ich bin italic</em><br><strong>Ich bin bald</strong><br><em><strong>Ich bin italic und bald</strong></em><br><del>Ich bin durchgestrichen</del><br>x^2</p><h2 id="我是二當家"><a href="#我是二當家" class="headerlink" title="我是二當家"></a>我是二當家</h2><p>oops 是二標題  </p><p><a href="http://www.google.com/">我是超链接1</a><br>我是超鏈接2<a href="https://tophub.today/">https://tophub.today/</a><br>參考文獻：[我是超鏈接3][1]<br>[1]:<a href="http://www.moc.goc.cn/">http://www.moc.goc.cn/</a></p><ul><li>選角色</li></ul><ul><li>做任務</li></ul><ul><li>打怪升級</li></ul><img src="/2021/05/15/test/%E9%B8%9F%E5%B7%A2%E5%89%AA%E5%BD%B1.jpg" class title="This is an image"><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arcade">![鸟巢](<span class="hljs-regexp">/images/</span>鸟巢剪影.jpg)<br></code></pre></td></tr></table></figure><hr>]]></content>
     
     
     <categories>
       
-      <category>随笔</category>
+      <category>Hexo</category>
       
     </categories>
     
