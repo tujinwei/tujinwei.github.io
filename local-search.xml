@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>What a quant should be capable of?</title>
+    <link href="/2021/09/10/What-a-quant-should-be-capable-of/"/>
+    <url>/2021/09/10/What-a-quant-should-be-capable-of/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p><em>下面是financial data analyst或者quant要点的技能，从一个freelancer那里借鉴而来，后续会继续添加…</em></p></blockquote><h3 id="Quantitative-modeling"><a href="#Quantitative-modeling" class="headerlink" title="Quantitative modeling"></a>Quantitative modeling</h3><p>A quantitative modeling can enable a data-driven decision making process for a variety of strategic planning activities, ranging from cost-minimizing procurement，capacity planning and buying/selling strategy in capital market based on a set of assumptions.</p><p>Here is an introductory course in <a href="https://www.coursera.org/learn/wharton-quantitative-modeling/home/welcome">Coursera</a>.</p><h3 id="Algorithmic-trading-strategies"><a href="#Algorithmic-trading-strategies" class="headerlink" title="Algorithmic trading strategies"></a>Algorithmic trading strategies</h3><p>You know how to develop intraday algorithm with the Interactive Brokers API, IB_Insync python library.</p><h3 id="Long-short-equity-optimization-models"><a href="#Long-short-equity-optimization-models" class="headerlink" title="Long/short equity optimization models"></a>Long/short equity optimization models</h3><p>You should master portoflolio optimization methods, probably with stochastic scenarios. Asset classes span through stocks, forex, bonds, futures, ETFs, and other derivatives such as repos, IRS base on the investors’ risk profiles.</p><h3 id="Programming-skills"><a href="#Programming-skills" class="headerlink" title="Programming skills"></a>Programming skills</h3><p>You must also be able to apply machine or deep learning, Q reinforcement learning agents.</p><p>Machine learning skill sets contains multivariate/logistic regression, lasso/ridge regression, linear/quadratic discriminant analysis, decision trees, K neighbors, Naive Bayes, random forest, support vector machine, Adaptiveboost, GradientBoost, XGB.</p><p>Deep learning modeling skills includes recurrent neural networks, Tensorflow, nltk, sentiment analyzer, Keras LSTM, and convolutional neural networks to predict or forcast certain asset prices.</p><h3 id="Citations-and-resources"><a href="#Citations-and-resources" class="headerlink" title="Citations and resources"></a><em>Citations and resources</em></h3><p><a href="https://www.fiverr.com/maysamk19/python-finance-time-series-algorithmic-trading-backtesting?utm_source=275794&utm_medium=cx_affiliate&utm_campaign=&afp=&cxd_token=275794_13437328&show_join=true">Fiverr post, by maysamk1</a><br><a href="https://darkhorseconsultinggroup.com/quantitative-modeling/">Dark horse consulting</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Data analysis</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Data analysis</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>Quant</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Basics of Blockchain</title>
     <link href="/2021/09/09/Basics-of-Bitcoin/"/>
     <url>/2021/09/09/Basics-of-Bitcoin/</url>
@@ -64,7 +93,7 @@
     <link href="/2021/05/17/%E6%9D%82%E6%84%9F/"/>
     <url>/2021/05/17/%E6%9D%82%E6%84%9F/</url>
     
-    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p><h3 id="2021年9月9日更新"><a href="#2021年9月9日更新" class="headerlink" title="2021年9月9日更新"></a>2021年9月9日更新</h3><p>持续的熬夜让身体感到疲倦。<br>身体像是一台机器，是人的最稳固的资产，是老底。每年折旧一点，不免要机能下降。但为了不加速折旧，不提前报废，就得好好养着，时时上油调理，免得猛地计提一大笔减值，再转回来就难了。</p>]]></content>
+    <content type="html"><![CDATA[<p>一日杂感</p><span id="more"></span><p>这几日都是2-4点睡觉，也不知到是心神作祟还是身体支配。<br>另外，植物也好，动物也好，老是呆在一个地方不动的话，似乎转眼再看就已经开始腐败了，人也是一样的吧。</p><p>2021年9月9日<br>持续的熬夜让身体感到疲倦。<br>身体像是一台机器，是人的最稳固的资产，是老底。每年折旧一点，不免要机能下降。但为了不加速折旧，不提前报废，就得好好养着，时时上油调理，免得猛地计提一大笔减值，再转回来就难了。</p><p>2021年9月10日<br>今日，在我宿舍窗外的草坪上，印度学生们男男女女都着盛装，到为首一户–也就是我正对面那户–窗前集会。至于举行着什么活动。我也不得而知。从形式上，既有唱诗念经又有跳舞，像是印度教的宗教礼仪。但转念一想，他们集中在一户庆祝，又有一个女性身披纱丽，尤为华丽，“不会是结婚吧”就涌上我好事的脑袋里。今日阳光明媚，倒也是个良辰吉日。印度人的传统服饰也很有意思，男生穿着紫色的、黄色的长及大腿的绸缎衣服，女生里面穿黄色的长裙，外面有披百褶的彩色丝绸披肩，让我联想起袈裟却更加活泼。 男生脸上还有红色颜料涂抹的符号，可能这位就是新郎官了。因为全程我都开着窗户，似乎他们也不介意这一点，不得不说印度人在这异国他乡比国人要开放一些，大胆一些。你看看，到了现在晚上一点，庆祝活动还没停，外面传来整齐的喊麦声，开怀的笑声，肆意的聊天声，手机公放的音乐声，嗯嗯啊啊的不知名的小调，绕梁三日不绝啊，完全不care社区有没有睡。对他们来说，这恐怕就是再正常不过的生活方式。 相比起来（老毛病，爱评比），国人（德国人以后再说）那可太矜持了，安安静静。我就是典型，今天在家一天没出门，到了这边还是蜗居，这是我万万没想到的，考试、求职、网课，事情太多了，运动、牙医以及练字那就更无需多言。什么鲜衣怒马、仗剑天涯、陌上花开，我看都是童话，下车拍照回家才是常态。<br>当然，人是群居的动物，集体仪式比如吹吹水，开开趴，斗斗歌都是极好的。</p>]]></content>
     
     
     <categories>
