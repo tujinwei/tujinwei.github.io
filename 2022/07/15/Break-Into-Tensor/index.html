@@ -14,7 +14,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="">
+  <meta name="description" content="
+When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood and figure it out
+">
   <meta name="author" content="Tjw">
   <meta name="keywords" content="">
   
@@ -192,7 +194,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      134 字
+      129 字
     </span>
   
 
@@ -244,10 +246,12 @@
             
             <div class="markdown-body">
               <blockquote>
-<p><em>When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood</em></p>
+<p><em>When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood and figure it out</em></p>
 </blockquote>
+<span id="more"></span>
+
 <h1 id="What-is-this-‘tensor’"><a href="#What-is-this-‘tensor’" class="headerlink" title="What is this ‘tensor’?"></a>What is this ‘tensor’?</h1><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">## Defining the loss <span class="hljs-keyword">function</span><br>loss = tf.reduce<span class="hljs-constructor">_mean(<span class="hljs-params">tf</span>.<span class="hljs-params">nn</span>.<span class="hljs-params">softmax_cross_entropy_with_logits_v2</span>(<span class="hljs-params">logits</span>=<span class="hljs-params">predicted_y</span>,<span class="hljs-params">labels</span>=<span class="hljs-params">input_y</span>)</span>) \<br>        + regularizer_rate*(tf.reduce<span class="hljs-constructor">_sum(<span class="hljs-params">tf</span>.<span class="hljs-params">square</span>(<span class="hljs-params">bias_0</span>)</span>) + tf.reduce<span class="hljs-constructor">_sum(<span class="hljs-params">tf</span>.<span class="hljs-params">square</span>(<span class="hljs-params">bias_1</span>)</span>))<br></code></pre></td></tr></table></figure>
-<p>I quote this code snippet from this blog by [Aayush Agrawal][<a target="_blank" rel="noopener" href="https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809]">https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809]</a>.<br>So we know tensor flow is a great library from google. What does it solve exactly and here what does this <code>reduce_mean</code> mean at all?<br>The <code>reduce_mean</code>function here gives the average of the elements of a tensor object in a fixed dimension.</p>
+<p>I quote this code snippet from this blog by <a target="_blank" rel="noopener" href="https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809">Aayush Agrawal</a>.<br>So we know tensor flow is a great library from google. What does it solve exactly and here what does this <code>reduce_mean</code> mean at all?<br>The <code>reduce_mean</code>function here gives the average of the elements of a tensor object in a fixed dimension.</p>
 <h1 id="How-is-it-relevant-to-Machine-Learning-and-Deep-Learning"><a href="#How-is-it-relevant-to-Machine-Learning-and-Deep-Learning" class="headerlink" title="How is it relevant to Machine Learning and Deep Learning?"></a>How is it relevant to Machine Learning and Deep Learning?</h1>
             </div>
             <hr>
