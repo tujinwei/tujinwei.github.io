@@ -4,6 +4,60 @@
   
   
   <entry>
+    <title>My Gallery</title>
+    <link href="/2022/07/15/My-Gallery/"/>
+    <url>/2022/07/15/My-Gallery/</url>
+    
+    <content type="html"><![CDATA[<h1 id="北京印象"><a href="#北京印象" class="headerlink" title="北京印象"></a>北京印象</h1><p>![2017 北京-1](/img/life/2017 北京-1.JPG)<br>![2017 北京-2](/img/life/2017 北京-2.JPG)<br>![2017 北京-3](/img/life/2017 北京-3.JPG)<br>![2017 北京-4](/img/life/2017 北京-4.JPG)<br>![2018 北京-我](/img/life/2018 北京-我.JPG)<br>![2018 北京-桥](/img/life/2018 北京-桥.JPG)</p><h1 id="广州剪影"><a href="#广州剪影" class="headerlink" title="广州剪影"></a>广州剪影</h1><p>![2019 广州-2](/img/life/2019 广州-2.JPG)<br>![2019 广州花火](/img/life/2019 广州花火.JPG)<br>![2019 广州-员村](/img/life/2019 广州-员村.JPG)<br>![2019 广州江边月下](/img/life/2019 广州江边月下.JPG)</p><h1 id="南京掠影"><a href="#南京掠影" class="headerlink" title="南京掠影"></a>南京掠影</h1><p>![2018 南京-2](/img/life/2018 南京-2.JPG)<br>![2018 南京-4](/img/life/2018 南京-4.JPG)</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>life</tag>
+      
+      <tag>photo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Break Into Tensor</title>
+    <link href="/2022/07/15/Break-Into-Tensor/"/>
+    <url>/2022/07/15/Break-Into-Tensor/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p><em>When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood</em></p></blockquote><h1 id="What-is-this-‘tensor’"><a href="#What-is-this-‘tensor’" class="headerlink" title="What is this ‘tensor’?"></a>What is this ‘tensor’?</h1><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">## Defining the loss <span class="hljs-keyword">function</span><br>loss = tf.reduce<span class="hljs-constructor">_mean(<span class="hljs-params">tf</span>.<span class="hljs-params">nn</span>.<span class="hljs-params">softmax_cross_entropy_with_logits_v2</span>(<span class="hljs-params">logits</span>=<span class="hljs-params">predicted_y</span>,<span class="hljs-params">labels</span>=<span class="hljs-params">input_y</span>)</span>) \<br>        + regularizer_rate*(tf.reduce<span class="hljs-constructor">_sum(<span class="hljs-params">tf</span>.<span class="hljs-params">square</span>(<span class="hljs-params">bias_0</span>)</span>) + tf.reduce<span class="hljs-constructor">_sum(<span class="hljs-params">tf</span>.<span class="hljs-params">square</span>(<span class="hljs-params">bias_1</span>)</span>))<br></code></pre></td></tr></table></figure><p>I quote this code snippet from this blog by [Aayush Agrawal][<a href="https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809]">https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809]</a>.<br>So we know tensor flow is a great library from google. What does it solve exactly and here what does this <code>reduce_mean</code> mean at all?<br>The <code>reduce_mean</code>function here gives the average of the elements of a tensor object in a fixed dimension.</p><h1 id="How-is-it-relevant-to-Machine-Learning-and-Deep-Learning"><a href="#How-is-it-relevant-to-Machine-Learning-and-Deep-Learning" class="headerlink" title="How is it relevant to Machine Learning and Deep Learning?"></a>How is it relevant to Machine Learning and Deep Learning?</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>computer</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>Data Science</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>What a quant should be capable of?</title>
     <link href="/2021/09/10/What-a-quant-should-be-capable-of/"/>
     <url>/2021/09/10/What-a-quant-should-be-capable-of/</url>
@@ -13,18 +67,18 @@
     
     <categories>
       
-      <category>Data analysis</category>
+      <category>Finance</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>Data analysis</tag>
-      
       <tag>Python</tag>
       
-      <tag>Quant</tag>
+      <tag>Data Science</tag>
+      
+      <tag>quant</tag>
       
     </tags>
     
@@ -37,12 +91,12 @@
     <link href="/2021/09/09/Basics-of-Bitcoin/"/>
     <url>/2021/09/09/Basics-of-Bitcoin/</url>
     
-    <content type="html"><![CDATA[<blockquote><p><em>这里主要是记录学习blockchain一些材料时遇到的疑惑，可能很入门，不了解这些算法层面的基本概念，区块链就是门玄学。</em></p></blockquote><h2 id="Genesis-coin-和-Basecoin"><a href="#Genesis-coin-和-Basecoin" class="headerlink" title="Genesis coin 和 Basecoin"></a>Genesis coin 和 Basecoin</h2><h2 id="什么是pow（proof-of-work）和pos（proof-of-stake）"><a href="#什么是pow（proof-of-work）和pos（proof-of-stake）" class="headerlink" title="什么是pow（proof of work）和pos（proof of stake）"></a>什么是pow（proof of work）和pos（proof of stake）</h2><h2 id="什么是smart-contract，-和transaction有什么不同？"><a href="#什么是smart-contract，-和transaction有什么不同？" class="headerlink" title="什么是smart contract， 和transaction有什么不同？"></a>什么是smart contract， 和transaction有什么不同？</h2><h2 id="Ethereum中的Node是什么"><a href="#Ethereum中的Node是什么" class="headerlink" title="Ethereum中的Node是什么"></a>Ethereum中的Node是什么</h2><h2 id="Block-header-是什么"><a href="#Block-header-是什么" class="headerlink" title="Block header 是什么"></a>Block header 是什么</h2><h2 id="Private-key-amp-public-key-pair-and-ECC-algorithm"><a href="#Private-key-amp-public-key-pair-and-ECC-algorithm" class="headerlink" title="Private key &amp; public key pair and ECC algorithm"></a>Private key &amp; public key pair and ECC algorithm</h2><h2 id="Hashing的原理"><a href="#Hashing的原理" class="headerlink" title="Hashing的原理"></a>Hashing的原理</h2><h2 id="什么是digital-signature"><a href="#什么是digital-signature" class="headerlink" title="什么是digital signature"></a>什么是digital signature</h2><h2 id="一些有用的gadget"><a href="#一些有用的gadget" class="headerlink" title="一些有用的gadget"></a>一些有用的gadget</h2><p>**buffllo大学提供的简单入门工具，可以帮助对hashing，encryption有一个概念<br><a href="https://cse.buffalo.edu/blockchain/tools.html">https://cse.buffalo.edu/blockchain/tools.html</a></p><h2 id="Citations-and-Resources："><a href="#Citations-and-Resources：" class="headerlink" title="Citations and Resources："></a><em>Citations and Resources：</em></h2><p><a href="https://bisontrails.co/digital-signatures/">Digital Signatures in Blockchains: The Present and Future， Andrew Tam</a></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p><em>这里主要是记录学习blockchain一些材料时遇到的疑惑，可能很入门，不了解这些算法层面的基本概念，感觉区块链就是门玄学。</em></p></blockquote><h2 id="Genesis-coin-和-Basecoin"><a href="#Genesis-coin-和-Basecoin" class="headerlink" title="Genesis coin 和 Basecoin"></a>Genesis coin 和 Basecoin</h2><h2 id="什么是pow（proof-of-work）和pos（proof-of-stake）"><a href="#什么是pow（proof-of-work）和pos（proof-of-stake）" class="headerlink" title="什么是pow（proof of work）和pos（proof of stake）"></a>什么是pow（proof of work）和pos（proof of stake）</h2><h2 id="什么是smart-contract，-和transaction有什么不同？"><a href="#什么是smart-contract，-和transaction有什么不同？" class="headerlink" title="什么是smart contract， 和transaction有什么不同？"></a>什么是smart contract， 和transaction有什么不同？</h2><h2 id="Ethereum中的Node是什么"><a href="#Ethereum中的Node是什么" class="headerlink" title="Ethereum中的Node是什么"></a>Ethereum中的Node是什么</h2><h2 id="Block-header-是什么"><a href="#Block-header-是什么" class="headerlink" title="Block header 是什么"></a>Block header 是什么</h2><h2 id="Private-key-amp-public-key-pair-and-ECC-algorithm"><a href="#Private-key-amp-public-key-pair-and-ECC-algorithm" class="headerlink" title="Private key &amp; public key pair and ECC algorithm"></a>Private key &amp; public key pair and ECC algorithm</h2><h2 id="Hashing的原理"><a href="#Hashing的原理" class="headerlink" title="Hashing的原理"></a>Hashing的原理</h2><h2 id="什么是digital-signature"><a href="#什么是digital-signature" class="headerlink" title="什么是digital signature"></a>什么是digital signature</h2><h2 id="一些有用的gadget"><a href="#一些有用的gadget" class="headerlink" title="一些有用的gadget"></a>一些有用的gadget</h2><p>**buffllo大学提供的简单入门工具，可以帮助对hashing，encryption有一个概念<br><a href="https://cse.buffalo.edu/blockchain/tools.html">https://cse.buffalo.edu/blockchain/tools.html</a></p><h2 id="Citations-and-Resources："><a href="#Citations-and-Resources：" class="headerlink" title="Citations and Resources："></a><em>Citations and Resources：</em></h2><p><a href="https://bisontrails.co/digital-signatures/">Digital Signatures in Blockchains: The Present and Future， Andrew Tam</a></p>]]></content>
     
     
     <categories>
       
-      <category>Blockchain</category>
+      <category>Finance</category>
       
     </categories>
     
@@ -66,12 +120,12 @@
     <link href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/"/>
     <url>/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</url>
     
-    <content type="html"><![CDATA[<p>脑壳疼</p><span id="more"></span><p><img src="/img/pin.jpg?20" alt="缩小的图片"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>安装JavaFx遇到的问题，大面积搜索后认为解决， 让人抓狂，可能是环境变量设置的问题。</p><span id="more"></span><p><img src="/img/pin.jpg?20" alt="缩小的图片"></p><blockquote><p><strong>Error 1</strong><br>A JNI error has occurred, please check your installation and try again.<br>Jar文件双击无法运行，按照CSDN帖子尝试了修改注册表还是不行，只能用command 命令“java -jar xxx.jar” 运行。Demo文件运行正常，我的文件出现以上报错。原因暂未找到。</p></blockquote>]]></content>
     
     
     <categories>
       
-      <category>Java</category>
+      <category>computer</category>
       
     </categories>
     
@@ -98,10 +152,20 @@
     
     <categories>
       
-      <category>trivia</category>
+      <category>life</category>
       
     </categories>
     
+    
+    <tags>
+      
+      <tag>students</tag>
+      
+      <tag>multi-culture</tag>
+      
+      <tag>life balance</tag>
+      
+    </tags>
     
   </entry>
   
@@ -112,23 +176,21 @@
     <link href="/2021/05/15/test/"/>
     <url>/2021/05/15/test/</url>
     
-    <content type="html"><![CDATA[<p>ほんじつはたのもう</p><span id="more"></span><h1 id="我是大標題"><a href="#我是大標題" class="headerlink" title="我是大標題"></a>我是大標題</h1><p>随便写点什么<br><em>Ich bin italic</em><br><strong>Ich bin bald</strong><br><em><strong>Ich bin italic und bald</strong></em><br><del>Ich bin durchgestrichen</del><br>x^2</p><h2 id="我是二當家"><a href="#我是二當家" class="headerlink" title="我是二當家"></a>我是二當家</h2><p>oops 是二標題  </p><p><a href="http://www.google.com/">我是超链接1</a><br>我是超鏈接2<a href="https://tophub.today/">https://tophub.today/</a><br>參考文獻：[我是超鏈接3][1]<br>[1]:<a href="http://www.moc.goc.cn/">http://www.moc.goc.cn/</a></p><ul><li>選角色</li></ul><ul><li>做任務</li></ul><ul><li>打怪升級</li></ul><img src="/2021/05/15/test/%E9%B8%9F%E5%B7%A2%E5%89%AA%E5%BD%B1.jpg" class title="This is an image"><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arcade">![鸟巢](<span class="hljs-regexp">/images/</span>鸟巢剪影.jpg)<br></code></pre></td></tr></table></figure><hr>]]></content>
+    <content type="html"><![CDATA[<p>ほんじつはたのもう<a href="https://www.riyuzaixianfanyi.com/w/%E9%A0%BC%E3%82%82%E3%81%86">https://www.riyuzaixianfanyi.com/w/%E9%A0%BC%E3%82%82%E3%81%86</a><br>今日就有劳了！</p><span id="more"></span><h1 id="我是大標題"><a href="#我是大標題" class="headerlink" title="我是大標題"></a>我是大標題</h1><p>随便写点什么<br><em>Ich bin italic</em><br><strong>Ich bin bald</strong><br><em><strong>Ich bin italic und bald</strong></em><br><del>Ich bin durchgestrichen</del><br>x^2</p><h2 id="我是二當家"><a href="#我是二當家" class="headerlink" title="我是二當家"></a>我是二當家</h2><p>oops 是二標題  </p><p><a href="http://www.google.com/">我是超链接1</a><br>我是超鏈接2<a href="https://tophub.today/">https://tophub.today/</a><br>參考文獻：[我是超鏈接3][1]<br>[1]:<a href="http://www.moc.goc.cn/">http://www.moc.goc.cn/</a></p><ul><li>選角色</li></ul><ul><li>做任務</li></ul><ul><li>打怪升級</li></ul><img src="/2021/05/15/test/%E9%B8%9F%E5%B7%A2%E5%89%AA%E5%BD%B1.jpg" class title="This is an image"><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arcade">![鸟巢](<span class="hljs-regexp">/images/</span>鸟巢剪影.jpg)<br></code></pre></td></tr></table></figure><hr>]]></content>
     
     
     <categories>
       
-      <category>Hexo</category>
+      <category>hexo</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>Hexo</tag>
+      <tag>hexo</tag>
       
-      <tag>Blog</tag>
-      
-      <tag>Bash</tag>
+      <tag>blog，markdown</tag>
       
     </tags>
     
