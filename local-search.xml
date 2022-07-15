@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>CFA1级Financial Statement的OCI有几类？</title>
+    <link href="/2022/07/15/CFA1%E7%BA%A7Financial-Statement%E7%9A%84OCI%E6%9C%89%E5%87%A0%E7%B1%BB/"/>
+    <url>/2022/07/15/CFA1%E7%BA%A7Financial-Statement%E7%9A%84OCI%E6%9C%89%E5%87%A0%E7%B1%BB/</url>
+    
+    <content type="html"><![CDATA[<p>Comprehensive Income = Net Income + Other Comprehensive Income</p><span id="more"></span><blockquote><p>OCI是owner’s equity的一个会计科目，个人感觉也是比较难理解的一个，因为它与金融资产的计量关系很大(另一个则是资本公积，也是个头疼的东西)。</p></blockquote><h1 id="OCI的作用"><a href="#OCI的作用" class="headerlink" title="OCI的作用"></a>OCI的作用</h1><h1 id="OCI的类别"><a href="#OCI的类别" class="headerlink" title="OCI的类别"></a>OCI的类别</h1><p>在US Gaap中有四类：</p><ol><li>Foreign Currency Translation</li><li>Pension liability cased by Defined Benefit(DB) </li><li>Unrealised revenue from Cash headging derivatives</li><li>Unrealised revenue from Available for Sale(AFS)</li></ol><p>而在IFRS中另外有一种需要考虑计入OCI的活动。</p><p><img src="/images/Screenshot-pension.jpg" alt="OCI中的pension liability adjustment[1]"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Finance</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Finance</tag>
+      
+      <tag>CFA1级</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>My Gallery</title>
     <link href="/2022/07/15/My-Gallery/"/>
     <url>/2022/07/15/My-Gallery/</url>
