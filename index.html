@@ -1,58 +1,91 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN,en,default" data-default-color-scheme=&#34;dark&#34;>
+<html lang="zh-hans" data-default-color-scheme=auto>
 
 
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
   <link rel="icon" href="/img/maotouying.png">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="">
-  <meta name="author" content="Tjw">
+  <meta name="author" content="David">
   <meta name="keywords" content="">
   
-  <title>Tewutu</title>
+    <meta property="og:type" content="website">
+<meta property="og:title" content="David TU">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="David TU">
+<meta property="og:locale">
+<meta property="article:author" content="David">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>David TU</title>
 
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
 
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
 
 
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
 <link  rel="stylesheet" href="/css/main.css" />
 
-<!-- 自定义样式保持在最底部 -->
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
 
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.10","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
 <body>
-  <header style="height: 100vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand"
-       href="/">&nbsp;<strong>养心軒</strong>&nbsp;</a>
+    <a class="navbar-brand" href="/">
+      <strong>养心軒</strong>
+    </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -69,9 +102,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                首页
+                <span>Startseite</span>
               </a>
             </li>
           
@@ -81,9 +114,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/">
+              <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                归档
+                <span>Archiv</span>
               </a>
             </li>
           
@@ -93,9 +126,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
+              <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                分类
+                <span>Kategorien</span>
               </a>
             </li>
           
@@ -105,9 +138,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/">
+              <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                标签
+                <span>Schlagwörter</span>
               </a>
             </li>
           
@@ -117,23 +150,26 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/">
+              <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                关于
+                <span>Über</span>
               </a>
             </li>
           
         
         
           <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
-                class="iconfont icon-search"></i>&nbsp;</a>
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
           </li>
+          
         
         
           <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
@@ -141,34 +177,40 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/banner3.jpg') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="阳春召我以烟景，大块假我以文章...">
-              
-            </span>
+  
 
-            
-          </div>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/banner3.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
           
         </div>
+
+        
       </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
     </div>
+  </div>
+</div>
+
+</div>
+
   </header>
 
   <main>
     
       <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
+        <div id="board"
+          style="margin-top: 0">
           
           <div class="container">
             <div class="row">
@@ -179,29 +221,20 @@
   <div class="row mx-auto index-card">
     
     
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2024/06/03/How-I-traverse-the-risk-forest-in-supply-chains/" target="_self">
-          <img src="/img/notfound.png" srcset="/img/loading.gif" lazyload alt="How I traverse the risk-forest in supply chains">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
         
         <a href="/2024/06/03/How-I-traverse-the-risk-forest-in-supply-chains/" target="_self">
           How I traverse the risk-forest in supply chains
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2024/06/03/How-I-traverse-the-risk-forest-in-supply-chains/" target="_self">
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/06/03/How-I-traverse-the-risk-forest-in-supply-chains/" target="_self">
+        <div>
           
-          
-            
-          
-          
-        </a>
-      </p>
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -228,22 +261,19 @@
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2022/07/15/CFA1%E7%BA%A7Financial-Statement%E7%9A%84OCI%E6%9C%89%E5%87%A0%E7%B1%BB/" target="_self">
           CFA1级Financial Statement的OCI有几类？
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2022/07/15/CFA1%E7%BA%A7Financial-Statement%E7%9A%84OCI%E6%9C%89%E5%87%A0%E7%B1%BB/" target="_self">
-          
-          
-            
-          
+      
+      <a class="index-excerpt " href="/2022/07/15/CFA1%E7%BA%A7Financial-Statement%E7%9A%84OCI%E6%9C%89%E5%87%A0%E7%B1%BB/" target="_self">
+        <div>
           Comprehensive Income = Net Income + Other Comprehensive Income
-        </a>
-      </p>
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -255,20 +285,34 @@
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/Finance/">Finance</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Finance/" class="category-chain-item">Finance</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Finance/">Finance</a>
+              <a href="/tags/Finance/">#Finance</a>
             
-              <a href="/tags/CFA1%E7%BA%A7/">CFA1级</a>
+              <a href="/tags/CFA1%E7%BA%A7/">#CFA1级</a>
             
           </div>
         
@@ -286,22 +330,19 @@
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2022/07/15/My-Gallery/" target="_self">
           My Gallery
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2022/07/15/My-Gallery/" target="_self">
-          
-          
-            
-          
+      
+      <a class="index-excerpt " href="/2022/07/15/My-Gallery/" target="_self">
+        <div>
           Some of the visions.
-        </a>
-      </p>
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -313,20 +354,34 @@
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/life/">life</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/life/" class="category-chain-item">life</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/life/">life</a>
+              <a href="/tags/life/">#life</a>
             
-              <a href="/tags/photo/">photo</a>
+              <a href="/tags/photo/">#photo</a>
             
           </div>
         
@@ -344,24 +399,19 @@
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2022/07/15/Break-Into-Tensor/" target="_self">
           Break Into Tensor
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2022/07/15/Break-Into-Tensor/" target="_self">
-          
-          
-            
-          
-          
-When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood and figure it out
-
-        </a>
-      </p>
+      
+      <a class="index-excerpt " href="/2022/07/15/Break-Into-Tensor/" target="_self">
+        <div>
+          When I was looking through some fantastic articles by data scientist columnists, I came across into the concept of tensor and I tell myself, it is the time to look under the hood and figure it out
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -373,20 +423,34 @@ When I was looking through some fantastic articles by data scientist columnists,
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/computer/">computer</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/computer/" class="category-chain-item">computer</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Data-Science/">Data Science</a>
+              <a href="/tags/Data-Science/">#Data Science</a>
             
-              <a href="/tags/Python/">Python</a>
+              <a href="/tags/Python/">#Python</a>
             
           </div>
         
@@ -404,25 +468,19 @@ When I was looking through some fantastic articles by data scientist columnists,
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2021/09/10/What-a-quant-should-be-capable-of/" target="_self">
           What a quant should be capable of?
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/09/10/What-a-quant-should-be-capable-of/" target="_self">
-          
-          
-            
-          
-          
-下面是financial data analyst或者quant要点的技能，从一个freelancer那里借鉴而来，后续会继续添加…
-
-Quantitative modelingA quantitative modeling can enable a data-driven decision making process for a variety of strategic planning a
-        </a>
-      </p>
+      
+      <a class="index-excerpt " href="/2021/09/10/What-a-quant-should-be-capable-of/" target="_self">
+        <div>
+          下面是financial data analyst或者quant要点的技能，从一个freelancer那里借鉴而来，后续会继续添加…  Quantitative modelingA quantitative modeling can enable a data-driven decision making process for a variety of strategic planning a
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -434,22 +492,36 @@ Quantitative modelingA quantitative modeling can enable a data-driven decision m
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/Finance/">Finance</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Finance/" class="category-chain-item">Finance</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Data-Science/">Data Science</a>
+              <a href="/tags/Data-Science/">#Data Science</a>
             
-              <a href="/tags/Python/">Python</a>
+              <a href="/tags/Python/">#Python</a>
             
-              <a href="/tags/quant/">quant</a>
+              <a href="/tags/quant/">#quant</a>
             
           </div>
         
@@ -467,25 +539,19 @@ Quantitative modelingA quantitative modeling can enable a data-driven decision m
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2021/09/09/Basics-of-Bitcoin/" target="_self">
           Basics of Blockchain
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/09/09/Basics-of-Bitcoin/" target="_self">
-          
-          
-            
-          
-          
-这里主要是记录学习blockchain一些材料时遇到的疑惑，可能很入门，不了解这些算法层面的基本概念，感觉区块链就是门玄学。
-
-Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake）什么是smart contract， 和transaction有什么不同？Ethereum中的Node是什么Block header 是什么P
-        </a>
-      </p>
+      
+      <a class="index-excerpt " href="/2021/09/09/Basics-of-Bitcoin/" target="_self">
+        <div>
+          这里主要是记录学习blockchain一些材料时遇到的疑惑，可能很入门，不了解这些算法层面的基本概念，感觉区块链就是门玄学。  Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake）什么是smart contract， 和transaction有什么不同？Ethereum中的Node是什么Block header 是什么P
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -497,22 +563,36 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/Finance/">Finance</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Finance/" class="category-chain-item">Finance</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Blockchain/">Blockchain</a>
+              <a href="/tags/Blockchain/">#Blockchain</a>
             
-              <a href="/tags/Bitcoin/">Bitcoin</a>
+              <a href="/tags/Bitcoin/">#Bitcoin</a>
             
-              <a href="/tags/Ethereum/">Ethereum</a>
+              <a href="/tags/Ethereum/">#Ethereum</a>
             
           </div>
         
@@ -530,22 +610,19 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/" target="_self">
           JavaFX运行出现的错误
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/" target="_self">
-          
-          
-            
-          
+      
+      <a class="index-excerpt " href="/2021/06/04/JavaFX%E8%BF%90%E8%A1%8C%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/" target="_self">
+        <div>
           安装JavaFx遇到的问题，大面积搜索后仍然未解决， 让人抓狂，可能是环境变量设置的问题。
-        </a>
-      </p>
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -557,20 +634,34 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/computer/">computer</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/computer/" class="category-chain-item">computer</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Java/">Java</a>
+              <a href="/tags/Java/">#Java</a>
             
-              <a href="/tags/JavaFX/">JavaFX</a>
+              <a href="/tags/JavaFX/">#JavaFX</a>
             
           </div>
         
@@ -588,22 +679,19 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2021/05/17/%E6%9D%82%E6%84%9F/" target="_self">
           深夜杂感
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/05/17/%E6%9D%82%E6%84%9F/" target="_self">
-          
-          
-            
-          
+      
+      <a class="index-excerpt " href="/2021/05/17/%E6%9D%82%E6%84%9F/" target="_self">
+        <div>
           一日杂感
-        </a>
-      </p>
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -615,22 +703,36 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/life/">life</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/life/" class="category-chain-item">life</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/students/">students</a>
+              <a href="/tags/students/">#students</a>
             
-              <a href="/tags/multi-culture/">multi-culture</a>
+              <a href="/tags/multi-culture/">#multi-culture</a>
             
-              <a href="/tags/life-balance/">life balance</a>
+              <a href="/tags/life-balance/">#life balance</a>
             
           </div>
         
@@ -648,25 +750,19 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+      <h2 class="index-header">
         
         <a href="/2021/05/15/test/" target="_self">
           This is a test of hexo functions
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/05/15/test/" target="_self">
-          
-          
-            
-          
-          ほんじつはたのもう(注：頼もう)
-
-今日就有劳了！
-
-        </a>
-      </p>
+      
+      <a class="index-excerpt " href="/2021/05/15/test/" target="_self">
+        <div>
+          ほんじつはたのもう(注：頼もう)  今日就有劳了！
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -678,22 +774,36 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/hexo/">hexo</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/hexo/" class="category-chain-item">hexo</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/hexo/">hexo</a>
+              <a href="/tags/hexo/">#hexo</a>
             
-              <a href="/tags/blog/">blog</a>
+              <a href="/tags/blog/">#blog</a>
             
-              <a href="/tags/markdown/">markdown</a>
+              <a href="/tags/markdown/">#markdown</a>
             
           </div>
         
@@ -704,32 +814,20 @@ Genesis coin 和 Basecoin什么是pow（proof of work）和pos（proof of stake�
   <div class="row mx-auto index-card">
     
     
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2021/05/11/hello-world/" target="_self">
-          <img src="/img/notfound.png" srcset="/img/loading.gif" lazyload alt="Start with Hexo">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
         
         <a href="/2021/05/11/hello-world/" target="_self">
           Start with Hexo
         </a>
-      </h1>
+      </h2>
 
-      <p class="index-excerpt">
-        <a href="/2021/05/11/hello-world/" target="_self">
-          
-          
-            
-          
-          
-A list of commands I need to know before/after I started, just to make it easy
-
-Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using He
-        </a>
-      </p>
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2021/05/11/hello-world/" target="_self">
+        <div>
+          A list of commands I need to know before/after I started, just to make it easy  Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using He
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -741,20 +839,34 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/hexo/">hexo</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/hexo/" class="category-chain-item">hexo</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/hexo/">hexo</a>
+              <a href="/tags/hexo/">#hexo</a>
             
-              <a href="/tags/command/">command</a>
+              <a href="/tags/command/">#command</a>
             
           </div>
         
@@ -774,7 +886,7 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
     
 
     
-      <a id="scroll-top-button" href="#" role="button">
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
         <i class="iconfont icon-arrowup" aria-hidden="true"></i>
       </a>
     
@@ -785,7 +897,7 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -793,35 +905,37 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
     </div>
   </div>
 </div>
+
     
 
     
   </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
+  <footer>
+    <div class="footer-inner">
   
-
+    <div class="footer-content">
+       #<a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> © David TU 2024· Powered by  #<i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
-
   
-</footer>
-
-
-  <!-- SCRIPTS -->
   
-  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
     NProgress.configure({"showSpinner":false,"trickleSpeed":100})
@@ -832,12 +946,28 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
   </script>
 
 
-<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
-<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-<!-- Plugins -->
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
 
 
   
@@ -846,73 +976,22 @@ Welcome to Hexo! This is your very first post. Check documentation for more info
 
 
 
-  
-
-
-
-
-
-
-
-
-
-  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
-
-
-
-  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
-
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-      typing(title)
-      
-    })(window, document);
-  </script>
-
-
 
   <script  src="/js/local-search.js" ></script>
-  <script>
-    (function () {
-      var path = "/local-search.xml";
-      $('#local-search-input').on('click', function() {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      });
-      $('#modalSearch').on('shown.bs.modal', function() {
-        $('#local-search-input').focus();
-      });
-    })()
-  </script>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-  
-<script src="/js/caidai.js"></script>
-<script src="//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js"></script>
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
 
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
+  </noscript>
 </body>
 </html>
