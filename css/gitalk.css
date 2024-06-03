@@ -126,8 +126,8 @@
   }
 }
 .gt-container .gt-avatar img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: auto;
   border-radius: 3px;
 }
 .gt-container .gt-avatar-github {
