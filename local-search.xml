@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
-  
-  
-  
+
+
+
+  <entry>
+    <title>Understanding AI Agents: A Reflection in the Era When AI Touches Everything</title>
+    <link href="/2026/06/03/Understanding-AI-Agents/"/>
+    <url>/2026/06/03/Understanding-AI-Agents/</url>
+
+    <content type="html"><![CDATA[<blockquote><p>The question is no longer whether AI can do the task, but whether I have set up the agent well enough to let it.</p></blockquote><p>Two weeks ago I thought I understood large language models. I had studied them at university, I could draw the attention mechanism on a whiteboard, and I had used ChatGPT like everyone else. Then I actually started building with AI agents — and discovered how shallow my understanding really was. This post is not a tidy tutorial or a set of notes. It is a reflection: on where AI agents stand today, on how steep my own learning curve has been, and on how I am trying to position myself in a world where AI is quietly touching every part of work and life.</p><h2 id="The-moment-AI-agents-became-ordinary">The moment AI agents became ordinary</h2><p>Something has shifted in the last year. AI agents — systems that don't just answer a question but actually carry out multi-step tasks on your behalf — have moved from a research curiosity to an ordinary part of how people and companies get things done. In the office, agents draft documents, summarize meetings, reconcile spreadsheets, triage tickets, and prepare first versions of reports. At home, people use them to plan trips, learn new subjects, write code for small personal projects, and organize their lives. What strikes me most is the shift from tools to collaborators.</p><h2 id="The-Chinese-LLM-wave">The Chinese LLM wave and the no-code no-brainer</h2><p>Nowhere is this more visible than in Chinese society right now. 通义千问 (Qwen) from Alibaba, 豆包 (Doubao) and 飞书 (Feishu / Lark) from ByteDance, and 智谱 GLM are deeply woven into everyday products. And web-based application builders like 秒哒 (miaoda.cn) let you describe an app in plain language and get a working one back. No-code application development has genuinely become a no-brainer, and the productivity gain is a step change.</p><h2 id="A-steep-two-weeks">A steep two weeks: relearning what I thought I knew</h2><p>For the past two weeks I have been hands-on with the Feishu AI agent and Claude. The learning curve has been steep enough that I had to admit my university knowledge of LLMs had gone stale. The transformer and self-attention are still the foundation, but the field has moved beyond training a transformer. The most useful new concept I had to absorb was RAG (Retrieval-Augmented Generation): retrieving relevant documents at query time and feeding them into the prompt so the model generates answers grounded in facts it never saw during training.</p><h2 id="Setting-up-an-agent">Setting up an agent: system prompt, guidelines, and skills</h2><p>The most eye-opening part has been the actual setup of an agent: the system prompt (its identity and standing instructions), the guidelines (the rules of engagement — when to ask, how to handle uncertainty, what done looks like), and skills (packaged, reusable capabilities). What surprised me is how much this resembles management more than programming — you describe intent, set boundaries, and delegate judgment.</p><h2 id="Automating-workflows-with-n8n">A separate note: automating company workflows with n8n</h2><p>One thread deserves its own section: workflow automation with n8n. n8n is an open-source platform that connects apps, data, and now AI models into automated pipelines — a trigger, a series of actions, and increasingly an LLM node that injects reasoning into the middle. This is where AI agents stop being a personal assistant and become company infrastructure, and where most of the real corporate efficiency will be created through hundreds of small automations.</p><h2 id="Self-positioning">Self-positioning in an era when AI touches everything</h2><p>If a no-code platform can build an app from a sentence and an agent can draft the report I used to spend an afternoon on, then my value is no longer in executing those tasks. It is in framing the right problem, supplying the right context, exercising judgment about quality, and taking responsibility for the outcome. In an era when AI can touch everything, the most important thing I can cultivate is the judgment to decide what it should touch, and the discipline to keep learning fast enough to direct it well.</p>]]></content>
+
+
+    <categories>
+
+      <category>Computer-Science</category>
+
+    </categories>
+
+
+    <tags>
+
+      <tag>AI</tag>
+
+      <tag>LLM</tag>
+
+      <tag>AI-Agent</tag>
+
+      <tag>RAG</tag>
+
+      <tag>Productivity</tag>
+
+      <tag>Reflection</tag>
+
+    </tags>
+
+  </entry>
+
   <entry>
     <title>How I Traverd The Risk Forest In Supply Chains</title>
     <link href="/2024/08/02/How-I-Traverd-The-Risks-In-Supply-Chains/"/>
