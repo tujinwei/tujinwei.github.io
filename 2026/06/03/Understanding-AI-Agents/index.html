@@ -1,0 +1,761 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/fluid.png">
+  <link rel="icon" href="/images/maotouying.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="David">
+  <meta name="keywords" content="">
+
+    <meta name="description" content="A reflection on AI agents, large language models and self-positioning in an era when AI touches everything in life and work.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Understanding AI Agents: A Reflection in the Era When AI Touches Everything">
+<meta property="og:url" content="http://example.com/2026/06/03/Understanding-AI-Agents/index.html">
+<meta property="og:site_name" content="David TU">
+<meta property="og:description" content="A reflection on AI agents, large language models and self-positioning in an era when AI touches everything in life and work.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/banner3.jpg">
+<meta property="article:published_time" content="2026-06-03T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-03T00:00:00.000Z">
+<meta property="article:author" content="David">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="AI-Agent">
+<meta property="article:tag" content="RAG">
+<meta property="article:tag" content="Productivity">
+<meta property="article:tag" content="Reflection">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/banner3.jpg">
+
+
+
+  <title>Understanding AI Agents: A Reflection in the Era When AI Touches Everything - David TU</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/images/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"kiwiukZup7iq0gtIsL8weY0G-MdYXbMMI","app_key":"MoZV8t1T63pcwVrBTICONMjA","server_url":null,"path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+
+
+  <header>
+
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>养心軒</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+
+
+
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+
+
+
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/images/banner3.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+
+            <span id="subtitle" data-typed-text="Understanding AI Agents: A Reflection in the Era When AI Touches Everything"></span>
+
+        </div>
+
+
+
+  <div class="mt-3">
+
+
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-06-03 00:00" pubdate>
+          June 3, 2026 am
+        </time>
+      </span>
+
+  </div>
+
+  <div class="mt-1">
+
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+
+          1700 words
+
+      </span>
+
+
+
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+
+
+
+          9 mins
+
+      </span>
+
+
+
+
+
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+
+
+
+  </div>
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+
+
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Understanding AI Agents: A Reflection in the Era When AI Touches Everything</h1>
+
+
+              <div class="markdown-body">
+
+                <blockquote>
+<p>The question is no longer whether AI can do the task, but whether I have set up the agent well enough to let it.</p>
+</blockquote>
+<p>Two weeks ago I thought I understood large language models. I had studied them at university, I could draw the attention mechanism on a whiteboard, and I had used ChatGPT like everyone else. Then I actually started <em>building</em> with AI agents — and discovered how shallow my understanding really was. This post is not a tidy tutorial or a set of notes. It is a reflection: on where AI agents stand today, on how steep my own learning curve has been, and on how I am trying to position myself in a world where AI is quietly touching every part of work and life.</p>
+<h2 id="The-moment-AI-agents-became-ordinary"><a href="#The-moment-AI-agents-became-ordinary" class="headerlink" title="The moment AI agents became ordinary"></a>The moment AI agents became ordinary</h2><p>Something has shifted in the last year. AI agents — systems that don&#39;t just answer a question but actually carry out multi-step tasks on your behalf — have moved from a research curiosity to an ordinary part of how people and companies get things done. In the office, agents draft documents, summarize meetings, reconcile spreadsheets, triage tickets, and prepare first versions of reports that a human only needs to review. At home, people use them to plan trips, learn new subjects, write code for small personal projects, and organize their lives.</p>
+<p>What strikes me most is the shift from <strong>tools</strong> to <strong>collaborators</strong>. A traditional tool waits for you to operate it. An agent, once given a goal and the right context, takes initiative: it plans, it calls other tools, it checks its own work, and it comes back with something close to finished. Collaboration between humans and agents — and increasingly between multiple agents — is becoming a normal way of working. We are learning to delegate, to review, and to trust (carefully).</p>
+<h2 id="The-Chinese-LLM-wave-and-the-no-code-no-brainer"><a href="#The-Chinese-LLM-wave-and-the-no-code-no-brainer" class="headerlink" title="The Chinese LLM wave and the no-code no-brainer"></a>The Chinese LLM wave and the no-code no-brainer</h2><p>Nowhere is this more visible than in Chinese society right now, where large language models have spread remarkably fast and are deeply woven into everyday products. A few that I keep running into:</p>
+<ul>
+<li><strong>通义千问 (Qwen)</strong> from Alibaba — a strong general-purpose model family that also powers a lot of enterprise and cloud workflows.</li>
+<li><strong>豆包 (Doubao)</strong> and <strong>飞书 (Feishu / Lark)</strong> from ByteDance — Doubao as a consumer assistant, and Feishu embedding AI directly into the collaboration suite where people already work.</li>
+<li><strong>智谱 GLM</strong> — another capable domestic model family widely used by developers and businesses.</li>
+</ul>
+<p>And then there are the web-based application builders. <strong>秒哒 (<a target="_blank" rel="noopener" href="https://www.miaoda.cn/">miaoda.cn</a>)</strong> is a striking example: you describe the application you want in plain language, and it assembles a working app for you. No-code application development has genuinely become a no-brainer. Things that used to require a developer, a sprint, and a deployment pipeline can now be prototyped by a non-engineer in an afternoon by simply describing the intent.</p>
+<p>The productivity gain is not incremental — it is a step change. When the cost of turning an idea into a working artifact drops this much, the bottleneck moves away from <em>execution</em> and toward <em>knowing what to ask for</em> and <em>judging whether the result is good</em>. That realization is exactly what forced me to go back and relearn.</p>
+<h2 id="A-steep-two-weeks-relearning-what-I-thought-I-knew"><a href="#A-steep-two-weeks-relearning-what-I-thought-I-knew" class="headerlink" title="A steep two weeks: relearning what I thought I knew"></a>A steep two weeks: relearning what I thought I knew</h2><p>For the past two weeks I have been hands-on with the <strong>Feishu AI agent</strong> on one side and <strong>Claude</strong> on the other. The learning curve has been steep — steep enough that I had to stop and admit that my university knowledge of LLMs had quietly gone stale.</p>
+<p>Back then, the <strong>transformer</strong> was the destination: I learned how self-attention lets a model weigh every token against every other token, how multi-head attention captures different relationships, and how stacking these blocks produces a language model. That is still the foundation, and revisiting it was a good reminder of <em>why</em> these models behave the way they do — why context length matters, why prompt position influences output, why they can be confidently wrong.</p>
+<p>But the field has moved well beyond &quot;train a transformer.&quot; The most useful new concept I had to absorb was <strong>RAG (Retrieval-Augmented Generation)</strong>. The idea is elegant: instead of relying only on what the model memorized during training, you retrieve relevant documents from a knowledge base at query time and feed them into the prompt as context. The model then generates its answer grounded in those retrieved facts. This is how an agent can answer questions about <em>my</em> company&#39;s internal documents, <em>my</em> notes, or <em>today&#39;s</em> data — none of which were in its training set. Understanding RAG reframed how I think about agents: a lot of the &quot;intelligence&quot; in a useful agent actually lives in how well you feed it the right context, not just in the raw model.</p>
+<h2 id="Setting-up-an-agent-system-prompt-guidelines-and-skills"><a href="#Setting-up-an-agent-system-prompt-guidelines-and-skills" class="headerlink" title="Setting up an agent: system prompt, guidelines, and skills"></a>Setting up an agent: system prompt, guidelines, and skills</h2><p>The most eye-opening part has been getting my hands dirty with the actual <em>setup</em> of an agent. It turns out that &quot;configuring an AI agent&quot; is a real craft with several layers:</p>
+<ul>
+<li><strong>System prompt</strong> — the agent&#39;s identity and standing instructions. This is where you define who the agent is, what its objective is, what tone it takes, and what it must never do. I learned quickly that vague system prompts produce vague agents; precision here pays off everywhere downstream.</li>
+<li><strong>Guidelines</strong> — the rules of engagement. When should the agent ask for clarification versus act? How should it handle uncertainty? What does &quot;done&quot; look like? Writing good guidelines feels a lot like writing a good onboarding document for a new colleague.</li>
+<li><strong>Skills</strong> — packaged, reusable capabilities the agent can invoke for specific kinds of tasks. Writing a skill forces you to think clearly about a workflow: its inputs, its steps, its outputs, and the conditions under which it should be used. A well-written skill is the difference between an agent that <em>knows</em> a procedure and one that improvises it badly every time.</li>
+</ul>
+<p>What surprised me is how much this resembles management more than programming. You are not writing imperative code line by line; you are describing intent, setting boundaries, and delegating judgment. The agent fills in the rest. Getting good at this is a genuinely new skill, and I suspect it will be as valuable in the coming years as knowing how to write a clean function was in the last decade.</p>
+<h2 id="A-separate-note-automating-company-workflows-with-n8n"><a href="#A-separate-note-automating-company-workflows-with-n8n" class="headerlink" title="A separate note: automating company workflows with n8n"></a>A separate note: automating company workflows with n8n</h2><p>One thread deserves its own section, because it is where individual AI use turns into organizational efficiency: <strong>workflow automation</strong>, and specifically <strong>n8n</strong>.</p>
+<p>n8n is an open-source workflow automation platform — think of it as visual plumbing that connects your apps, data, and now AI models into automated pipelines. You build a workflow by wiring together nodes: a trigger (a new email, a form submission, a scheduled time), a series of actions (query a database, call an API, transform data), and increasingly an <strong>LLM node</strong> that injects reasoning into the middle of the pipeline.</p>
+<p>This is where AI agents stop being a personal assistant and become company infrastructure. A few patterns I find compelling:</p>
+<ul>
+<li>An incoming customer email triggers a workflow that uses an LLM to classify the request, drafts a reply grounded in the knowledge base via RAG, and routes it to the right person for approval.</li>
+<li>A scheduled job pulls yesterday&#39;s operational data, asks a model to summarize anomalies, and posts a digest into Feishu or Slack every morning.</li>
+<li>A document uploaded to a shared drive is automatically read, summarized, tagged, and filed — no human in the loop until review.</li>
+</ul>
+<p>The efficiency gain compounds because these workflows run continuously, without fatigue, and they free people to focus on the judgment calls that actually need a human. Combining n8n&#39;s orchestration with a well-configured agent feels like the practical, unglamorous frontier where most of the real corporate value will be created — not in flashy demos, but in hundreds of small automations that quietly remove friction.</p>
+<h2 id="Self-positioning-in-an-era-when-AI-touches-everything"><a href="#Self-positioning-in-an-era-when-AI-touches-everything" class="headerlink" title="Self-positioning in an era when AI touches everything"></a>Self-positioning in an era when AI touches everything</h2><p>So what does all this mean for me, and for how I work?</p>
+<p>The honest answer is that it has unsettled me in a productive way. If a no-code platform can build an app from a sentence, and an agent can draft the report I used to spend an afternoon on, then my value is no longer in being the one who <em>executes</em> those tasks. It is in something harder to automate: framing the right problem, supplying the right context, exercising judgment about quality, and taking responsibility for the outcome. The agent is a tireless junior colleague; I have to become a better senior one.</p>
+<p>I am also struck by how much this rewards curiosity and humility. The two weeks that humbled me were also the most energizing I have had in a long time. The technology is moving fast enough that nobody&#39;s university knowledge is current for long — which means the durable advantage is not <em>what</em> you know but how quickly you are willing to relearn. Going back to the transformer, picking up RAG, learning to write a system prompt and a skill, wiring an n8n workflow: each of these was a small act of staying current.</p>
+<p>If I had to compress this reflection into a single sentence, it would be this: <strong>in an era when AI can touch everything, the most important thing I can cultivate is the judgment to decide what it should touch, and the discipline to keep learning fast enough to direct it well.</strong></p>
+<p>This is a draft of my thinking, not a conclusion. I expect to revise it as the tools — and I — keep changing. If you are on a similar journey, I&#39;d genuinely like to hear how you are positioning yourself. Drop a comment :)</p>
+
+              </div>
+
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+
+
+<span class="category-chains">
+
+
+
+      <span class="category-chain">
+
+  <a href="/categories/Computer-Science/" class="category-chain-item">Computer-Science</a>
+
+
+
+      </span>
+
+
+</span>
+
+    </div>
+
+
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+
+        <a href="/tags/AI/" class="print-no-link">#AI</a>
+
+        <a href="/tags/LLM/" class="print-no-link">#LLM</a>
+
+        <a href="/tags/AI-Agent/" class="print-no-link">#AI-Agent</a>
+
+        <a href="/tags/RAG/" class="print-no-link">#RAG</a>
+
+        <a href="/tags/Productivity/" class="print-no-link">#Productivity</a>
+
+        <a href="/tags/Reflection/" class="print-no-link">#Reflection</a>
+
+    </div>
+
+</div>
+
+
+
+
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Understanding AI Agents: A Reflection in the Era When AI Touches Everything</div>
+      <div>http://example.com/2026/06/03/Understanding-AI-Agents/</div>
+    </div>
+    <div class="license-meta">
+
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>David</div>
+        </div>
+
+
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>June 3, 2026</div>
+        </div>
+
+
+
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+
+
+
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+
+
+          </div>
+        </div>
+
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+
+
+                  </article>
+                  <article class="post-next col-6">
+
+
+                      <a href="/2024/08/02/How-I-Traverd-The-Risks-In-Supply-Chains/" title="How I Traverd The Risk Forest In Supply Chains">
+                        <span class="hidden-mobile">How I Traverd The Risk Forest In Supply Chains</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+
+                  </article>
+                </div>
+
+            </div>
+
+
+
+
+    <article id="comments" lazyload>
+
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      var light = 'github-light';
+      var dark = 'github-dark';
+      var schema = document.documentElement.getAttribute('data-user-color-scheme');
+      if (schema === 'dark') {
+        schema = dark;
+      } else {
+        schema = light;
+      }
+      window.UtterancesThemeLight = light;
+      window.UtterancesThemeDark = dark;
+      var s = document.createElement('script');
+      s.setAttribute('src', 'https://utteranc.es/client.js');
+      s.setAttribute('repo', 'tujinwei/comments-blog');
+      s.setAttribute('issue-term', 'pathname');
+
+      s.setAttribute('label', 'utterances');
+
+      s.setAttribute('theme', schema);
+      s.setAttribute('crossorigin', 'anonymous');
+      document.getElementById('comments').appendChild(s);
+    })
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+
+
+
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+
+    <div class="footer-content">
+
+© JINWEI TU 2026 · Powered by  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    </div>
+
+
+    <div class="statistics">
+
+
+
+
+
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+
+
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+
+        typing(text);
+
+    })(window, document);
+  </script>
+
+
+
+
+
+    <script  src="/js/img-lazyload.js" ></script>
+
+
+
+
+
+
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
